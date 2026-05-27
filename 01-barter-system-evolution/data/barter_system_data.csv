@@ -1,0 +1,13 @@
+Year,Trade_System,Population_Million,Trade_Volume,Transaction_Success_Rate,Efficiency_Index,Market_Complexity
+1000,Barter,50,120,35,20,15
+1100,Barter,55,140,37,22,18
+1200,Barter,60,170,40,25,22
+1300,Barter,68,210,43,28,26
+1400,Barter,75,260,46,31,30
+1500,Metal_Coin,85,420,58,45,42
+1600,Metal_Coin,100,620,63,52,48
+1700,Metal_Coin,120,900,68,58,55
+1800,Paper_Money,170,1500,76,70,72
+1900,Paper_Money,250,3000,84,82,88
+2000,Banking,1000,12000,94,93,96
+2025,Digital,1450,30000,99,99,100
