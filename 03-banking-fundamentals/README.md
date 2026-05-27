@@ -227,33 +227,25 @@ Machine Learning is used to predict Banking Sector Growth.
 # 📊 Visualizations
 
 ### Deposits Growth
-
-- deposits_growth.png
+![Deposits Growth](charts/deposits_growth.png)
 
 ### Loans Growth
-
-- loans_growth.png
+![Loans Growth](charts/loans_growth.png)
 
 ### Credit Deposit Ratio
-
-- credit_deposit_ratio.png
+![Credit Deposit Ratio](charts/credit_deposit_ratio.png)
 
 ### Interest Rate Analysis
-
-- interest_rate_analysis.png
+![Interest Rate Analysis](charts/interest_rate_analysis.png)
 
 ### Banking Sector Growth
-
-- banking_sector_growth.png
+![Banking Sector Growth](charts/banking_sector_growth.png)
 
 ### Feature Importance
-
-- feature_importance.png
+![Feature Importance](charts/feature_importance.png)
 
 ### Machine Learning Prediction
-
-- ml_prediction.png
-
+![Machine Learning Prediction](charts/ml_prediction.png)
 ---
 
 # 🌐 Interactive Dashboard
