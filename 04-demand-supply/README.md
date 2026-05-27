@@ -258,7 +258,7 @@ Machine Learning is used to predict future demand levels.
 
 ### Demand Curve
 
-- demand_curve.png
+![Demand Curve](charts/demand_curve.png)
 
 Visualizes the inverse relationship between price and demand.
 
@@ -266,7 +266,7 @@ Visualizes the inverse relationship between price and demand.
 
 ### Supply Curve
 
-- supply_curve.png
+![Supply Curve](charts/supply_curve.png)
 
 Visualizes the positive relationship between price and supply.
 
@@ -274,7 +274,7 @@ Visualizes the positive relationship between price and supply.
 
 ### Market Equilibrium
 
-- market_equilibrium.png
+![Market Equilibrium](charts/market_equilibrium.png)
 
 Shows the interaction between demand and supply curves.
 
@@ -282,7 +282,7 @@ Shows the interaction between demand and supply curves.
 
 ### Price Quantity Trend
 
-- price_quantity_trend.png
+![Price Quantity Trend](charts/price_quantity_trend.png)
 
 Tracks long-term market trends.
 
@@ -290,7 +290,7 @@ Tracks long-term market trends.
 
 ### Elasticity Analysis
 
-- elasticity_analysis.png
+![Elasticity Analysis](charts/elasticity_analysis.png)
 
 Measures responsiveness of demand to price changes.
 
@@ -298,7 +298,7 @@ Measures responsiveness of demand to price changes.
 
 ### Feature Importance
 
-- feature_importance.png
+![Feature Importance](charts/feature_importance.png)
 
 Displays the most important variables influencing demand.
 
@@ -306,7 +306,7 @@ Displays the most important variables influencing demand.
 
 ### Machine Learning Prediction
 
-- ml_prediction.png
+![Machine Learning Prediction](charts/ml_prediction.png)
 
 Compares actual demand values with predicted values.
 
