@@ -4,7 +4,7 @@
 
 Gross Domestic Product (GDP) and development indicators are among the most important measures of a nation's economic performance and quality of life.
 
-This project analyzes GDP growth, Per Capita Income, Human Development Index (HDI), Sectoral Contribution (Agriculture, Industry, Services), and Economic Growth Rates using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and an Interactive Streamlit Dashboard.
+This project analyzes GDP growth, Per Capita Income, Human Development Index (HDI), Sectoral Contribution (Agriculture, Industry, Services), and Economic Growth Rates using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and Interactive Dashboards.
 
 The objective is to transform economic growth and development concepts into practical analytics applications using Python and modern data science tools.
 
@@ -95,7 +95,8 @@ The dataset used in this project is an educational dataset created for learning 
 │   ├── economic_growth_rate.png
 │   ├── feature_importance.png
 │   ├── ml_prediction.png
-│   └── dashboard_preview.png
+│   ├── dashboard_preview.png
+│   └── gdp_development_terminal_output.png
 │
 ├── sql/
 │   └── gdp_development_queries.sql
@@ -114,16 +115,16 @@ The dataset used in this project is an educational dataset created for learning 
 
 The dataset contains yearly economic development indicators.
 
-| Column | Description |
-|----------|-------------|
-| Year | Observation Year |
-| GDP | Gross Domestic Product |
-| PerCapitaIncome | Income Per Person |
-| Agriculture | Agriculture Sector Share (%) |
-| Industry | Industry Sector Share (%) |
-| Services | Services Sector Share (%) |
-| HDI | Human Development Index |
-| GrowthRate | Annual Economic Growth Rate (%) |
+| Column            | Description                    |
+|-------------------|-------------------------------|
+| Year              | Observation Year               |
+| GDP               | Gross Domestic Product         |
+| PerCapitaIncome   | Income Per Person              |
+| Agriculture       | Agriculture Sector Share (%)   |
+| Industry          | Industry Sector Share (%)      |
+| Services          | Services Sector Share (%)      |
+| HDI               | Human Development Index        |
+| GrowthRate        | Annual Economic Growth Rate (%)|
 
 ---
 
@@ -239,13 +240,15 @@ The project automatically generates the following charts.
 
 ---
 
+## Terminal Output
+
+![Terminal Output](charts/gdp_development_terminal_output.png)
+
+---
+
 ## 1. GDP Growth Trend
 
-File:
-
-```text
-gdp_growth_trend.png
-```
+![GDP Growth Trend](charts/gdp_growth_trend.png)
 
 Tracks GDP growth over time.
 
@@ -253,11 +256,7 @@ Tracks GDP growth over time.
 
 ## 2. Per Capita Income
 
-File:
-
-```text
-per_capita_income.png
-```
+![Per Capita Income](charts/per_capita_income.png)
 
 Shows income growth per person.
 
@@ -265,11 +264,7 @@ Shows income growth per person.
 
 ## 3. Sectoral Contribution
 
-File:
-
-```text
-sectoral_contribution.png
-```
+![Sectoral Contribution](charts/sectoral_contribution.png)
 
 Compares Agriculture, Industry and Services sectors.
 
@@ -277,11 +272,7 @@ Compares Agriculture, Industry and Services sectors.
 
 ## 4. HDI vs GDP
 
-File:
-
-```text
-hdi_vs_gdp.png
-```
+![HDI vs GDP](charts/hdi_vs_gdp.png)
 
 Analyzes relationship between development and economic output.
 
@@ -289,11 +280,7 @@ Analyzes relationship between development and economic output.
 
 ## 5. Economic Growth Rate
 
-File:
-
-```text
-economic_growth_rate.png
-```
+![Economic Growth Rate](charts/economic_growth_rate.png)
 
 Shows annual economic growth performance.
 
@@ -301,11 +288,7 @@ Shows annual economic growth performance.
 
 ## 6. Feature Importance
 
-File:
-
-```text
-feature_importance.png
-```
+![Feature Importance](charts/feature_importance.png)
 
 Displays important variables used by the machine learning model.
 
@@ -313,11 +296,7 @@ Displays important variables used by the machine learning model.
 
 ## 7. Machine Learning Prediction
 
-File:
-
-```text
-ml_prediction.png
-```
+![Machine Learning Prediction](charts/ml_prediction.png)
 
 Compares actual and predicted GDP values.
 
