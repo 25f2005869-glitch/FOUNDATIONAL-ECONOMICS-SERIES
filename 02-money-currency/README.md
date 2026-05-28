@@ -227,7 +227,7 @@ Shows increasing adoption of digital payment systems.
 
 Analyzes monetary expansion and inflation relationship.
 
-![Inflation vs Money Supply](chart/inflation_vs_money_supply.png)
+![Inflation vs Money Supply](charts/inflation_vs_money_supply.png)
 
 ---
 
@@ -257,7 +257,7 @@ Year-over-year currency expansion.
 
 ## Terminal Output
 
-![Money Currency Analysis Output](chart/money_currency_analysis_output.png)
+![Money Currency Analysis Output](charts/money_currency_analysis_output.png)
 
 ---
 
