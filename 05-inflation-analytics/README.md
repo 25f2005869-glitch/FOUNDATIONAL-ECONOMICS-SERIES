@@ -4,7 +4,7 @@
 
 Inflation is one of the most important economic indicators influencing purchasing power, household budgets, savings, investment decisions, business planning, and overall economic stability.
 
-This project analyzes inflation trends using Consumer Price Index (CPI), Wholesale Price Index (WPI), purchasing power, income growth, statistical analysis, SQL analytics, machine learning predictions, and an interactive Streamlit dashboard.
+This project analyzes inflation trends using Consumer Price Index (CPI), Wholesale Price Index (WPI), purchasing power, income growth, statistical analysis, SQL analytics, machine learning predictions[...]
 
 The objective is to transform inflation-related economic concepts into practical data analytics applications using Python and modern analytical tools.
 
@@ -94,7 +94,8 @@ The dataset used in this project is an educational dataset created for learning 
 │   ├── inflation_growth_rate.png
 │   ├── feature_importance.png
 │   ├── ml_prediction.png
-│   └── dashboard_preview.png
+│   ├── dashboard_preview.png
+│   └── terminal_output.png
 │
 ├── sql/
 │   └── inflation_queries.sql
@@ -201,13 +202,15 @@ The project automatically generates the following charts.
 
 ---
 
+## Terminal Output
+
+![Terminal Output](charts/terminal_output.png)
+
+---
+
 ## 1. Inflation Trend
 
-File:
-
-```text
-inflation_trend.png
-```
+![Inflation Trend](charts/inflation_trend.png)
 
 Visualizes inflation movement across years.
 
@@ -215,11 +218,7 @@ Visualizes inflation movement across years.
 
 ## 2. CPI vs WPI Analysis
 
-File:
-
-```text
-cpi_vs_wpi.png
-```
+![CPI vs WPI Analysis](charts/cpi_vs_wpi.png)
 
 Compares consumer and wholesale price indices.
 
@@ -227,11 +226,7 @@ Compares consumer and wholesale price indices.
 
 ## 3. Purchasing Power Analysis
 
-File:
-
-```text
-purchasing_power.png
-```
+![Purchasing Power Analysis](charts/purchasing_power.png)
 
 Shows how inflation impacts purchasing power.
 
@@ -239,11 +234,7 @@ Shows how inflation impacts purchasing power.
 
 ## 4. Inflation vs Income
 
-File:
-
-```text
-inflation_vs_income.png
-```
+![Inflation vs Income](charts/inflation_vs_income.png)
 
 Examines income growth relative to inflation.
 
@@ -251,11 +242,7 @@ Examines income growth relative to inflation.
 
 ## 5. Inflation Growth Rate
 
-File:
-
-```text
-inflation_growth_rate.png
-```
+![Inflation Growth Rate](charts/inflation_growth_rate.png)
 
 Tracks year-to-year inflation changes.
 
@@ -263,11 +250,7 @@ Tracks year-to-year inflation changes.
 
 ## 6. Feature Importance
 
-File:
-
-```text
-feature_importance.png
-```
+![Feature Importance](charts/feature_importance.png)
 
 Displays important variables influencing inflation predictions.
 
@@ -275,11 +258,7 @@ Displays important variables influencing inflation predictions.
 
 ## 7. Machine Learning Prediction
 
-File:
-
-```text
-ml_prediction.png
-```
+![Machine Learning Prediction](charts/ml_prediction.png)
 
 Compares actual and predicted inflation values.
 
