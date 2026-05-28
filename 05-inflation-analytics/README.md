@@ -204,7 +204,7 @@ The project automatically generates the following charts.
 
 ## Terminal Output
 
-![Terminal Output](charts/terminal_output.png)
+![Terminal Output](charts/Inflation-Analytics_terminal_output.png)
 
 ---
 
