@@ -4,7 +4,7 @@
 
 Fiscal Deficit is one of the most important indicators of public finance and economic stability. It occurs when government expenditure exceeds government revenue, requiring borrowing to finance the gap.
 
-This project analyzes fiscal deficits, public debt, government borrowing, revenue, expenditure, GDP trends, and fiscal sustainability using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and an Interactive Streamlit Dashboard.
+This project analyzes fiscal deficits, public debt, government borrowing, revenue, expenditure, GDP trends, and fiscal sustainability using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and an interactive dashboard.
 
 The objective is to transform fiscal policy concepts into practical analytics applications using Python and modern data science tools.
 
@@ -96,7 +96,8 @@ The dataset used in this project is an educational dataset created for learning 
 │   ├── borrowing_analysis.png
 │   ├── feature_importance.png
 │   ├── ml_prediction.png
-│   └── dashboard_preview.png
+│   ├── dashboard_preview.png
+│   └── fiscal-deficit_terminal_output1.png
 │
 ├── sql/
 │   └── fiscal_deficit_queries.sql
@@ -115,15 +116,15 @@ The dataset used in this project is an educational dataset created for learning 
 
 The dataset contains yearly fiscal policy indicators.
 
-| Column | Description |
-|----------|-------------|
-| Year | Observation Year |
-| GovernmentRevenue | Total Government Revenue |
+| Column              | Description                  |
+|---------------------|-----------------------------|
+| Year                | Observation Year            |
+| GovernmentRevenue   | Total Government Revenue    |
 | GovernmentExpenditure | Total Government Expenditure |
-| FiscalDeficit | Revenue–Expenditure Gap |
-| PublicDebt | Outstanding Public Debt |
-| Borrowing | Annual Government Borrowing |
-| GDP | Gross Domestic Product |
+| FiscalDeficit       | Revenue–Expenditure Gap     |
+| PublicDebt          | Outstanding Public Debt     |
+| Borrowing           | Annual Government Borrowing |
+| GDP                 | Gross Domestic Product      |
 
 ---
 
@@ -208,13 +209,15 @@ The project automatically generates the following charts.
 
 ---
 
+## Terminal Output
+
+![Terminal Output](charts/fiscal-deficit_terminal_output1.png)
+
+---
+
 ## 1. Fiscal Deficit Trend
 
-File:
-
-```text
-fiscal_deficit_trend.png
-```
+![Fiscal Deficit Trend](charts/fiscal_deficit_trend.png)
 
 Shows changes in fiscal deficit across years.
 
@@ -222,11 +225,7 @@ Shows changes in fiscal deficit across years.
 
 ## 2. Revenue vs Expenditure
 
-File:
-
-```text
-revenue_vs_expenditure.png
-```
+![Revenue vs Expenditure](charts/revenue_vs_expenditure.png)
 
 Compares government earnings and spending.
 
@@ -234,11 +233,7 @@ Compares government earnings and spending.
 
 ## 3. Fiscal Deficit vs GDP
 
-File:
-
-```text
-fiscal_deficit_vs_gdp.png
-```
+![Fiscal Deficit vs GDP](charts/fiscal_deficit_vs_gdp.png)
 
 Measures deficit relative to economic output.
 
@@ -246,11 +241,7 @@ Measures deficit relative to economic output.
 
 ## 4. Public Debt Growth
 
-File:
-
-```text
-public_debt_growth.png
-```
+![Public Debt Growth](charts/public_debt_growth.png)
 
 Tracks debt accumulation over time.
 
@@ -258,11 +249,7 @@ Tracks debt accumulation over time.
 
 ## 5. Borrowing Analysis
 
-File:
-
-```text
-borrowing_analysis.png
-```
+![Borrowing Analysis](charts/borrowing_analysis.png)
 
 Visualizes annual borrowing requirements.
 
@@ -270,11 +257,7 @@ Visualizes annual borrowing requirements.
 
 ## 6. Feature Importance
 
-File:
-
-```text
-feature_importance.png
-```
+![Feature Importance](charts/feature_importance.png)
 
 Displays important variables used by the machine learning model.
 
@@ -282,11 +265,7 @@ Displays important variables used by the machine learning model.
 
 ## 7. Machine Learning Prediction
 
-File:
-
-```text
-ml_prediction.png
-```
+![Machine Learning Prediction](charts/ml_prediction.png)
 
 Compares actual and predicted fiscal deficit values.
 
