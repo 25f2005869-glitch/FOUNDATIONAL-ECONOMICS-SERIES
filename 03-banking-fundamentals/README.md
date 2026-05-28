@@ -248,6 +248,12 @@ Machine Learning is used to predict Banking Sector Growth.
 ![Machine Learning Prediction](charts/ml_prediction.png)
 ---
 
+### Terminal Output
+
+![Banking Terminal Output](charts/banking_terminal_output%20(2).png)
+
+---
+
 # 🌐 Interactive Dashboard
 
 The Streamlit Dashboard provides:
