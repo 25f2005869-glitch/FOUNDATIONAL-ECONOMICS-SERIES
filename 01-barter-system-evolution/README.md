@@ -358,7 +358,7 @@ Forecast of future economic efficiency using Linear Regression.
 
 ## ⚙ Program Execution Output
 
-![Terminal Output](charts/barter_terminal_output.png)
+![Terminal Output](charts/ml_prediction_terminal_output.png)
 
 Displays:
 
