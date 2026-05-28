@@ -4,7 +4,7 @@
 
 Monetary Policy is one of the most important tools used by the Reserve Bank of India (RBI) to control inflation, regulate liquidity, stabilize financial markets, and support economic growth.
 
-This project analyzes Repo Rate, Reverse Repo Rate, Cash Reserve Ratio (CRR), Statutory Liquidity Ratio (SLR), Inflation Rate, and Money Supply using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and an Interactive Streamlit Dashboard.
+This project analyzes Repo Rate, Reverse Repo Rate, Cash Reserve Ratio (CRR), Statutory Liquidity Ratio (SLR), Inflation Rate, and Money Supply using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and interactive dashboards.
 
 The objective is to transform RBI monetary policy concepts into practical analytics applications using Python and modern data science tools.
 
@@ -95,7 +95,8 @@ The dataset used in this project is an educational dataset created for learning 
 │   ├── money_supply_growth.png
 │   ├── feature_importance.png
 │   ├── ml_prediction.png
-│   └── dashboard_preview.png
+│   ├── dashboard_preview.png
+│   └── rbi_terminal_output.png
 │
 ├── sql/
 │   └── rbi_monetary_policy_queries.sql
@@ -114,15 +115,15 @@ The dataset used in this project is an educational dataset created for learning 
 
 The dataset contains yearly monetary policy indicators.
 
-| Column | Description |
-|----------|-------------|
-| Year | Observation Year |
-| RepoRate | RBI Lending Rate |
-| ReverseRepoRate | RBI Borrowing Rate |
-| CRR | Cash Reserve Ratio |
-| SLR | Statutory Liquidity Ratio |
-| InflationRate | Annual Inflation Rate (%) |
-| MoneySupply | Total Money Supply Index |
+| Column           | Description                 |
+|------------------|----------------------------|
+| Year             | Observation Year           |
+| RepoRate         | RBI Lending Rate           |
+| ReverseRepoRate  | RBI Borrowing Rate         |
+| CRR              | Cash Reserve Ratio         |
+| SLR              | Statutory Liquidity Ratio  |
+| InflationRate    | Annual Inflation Rate (%)  |
+| MoneySupply      | Total Money Supply Index   |
 
 ---
 
@@ -220,13 +221,15 @@ The project automatically generates the following charts.
 
 ---
 
+## Terminal Output
+
+![Terminal Output](charts/rbi_terminal_output.png)
+
+---
+
 ## 1. Repo Rate Trend
 
-File:
-
-```text
-repo_rate_trend.png
-```
+![Repo Rate Trend](charts/repo_rate_trend.png)
 
 Tracks RBI policy rate changes over time.
 
@@ -234,11 +237,7 @@ Tracks RBI policy rate changes over time.
 
 ## 2. Reverse Repo Rate Analysis
 
-File:
-
-```text
-reverse_repo_rate.png
-```
+![Reverse Repo Rate](charts/reverse_repo_rate.png)
 
 Analyzes liquidity absorption trends.
 
@@ -246,11 +245,7 @@ Analyzes liquidity absorption trends.
 
 ## 3. CRR vs SLR Analysis
 
-File:
-
-```text
-crr_slr_analysis.png
-```
+![CRR vs SLR Analysis](charts/crr_slr_analysis.png)
 
 Compares reserve requirement policies.
 
@@ -258,11 +253,7 @@ Compares reserve requirement policies.
 
 ## 4. Inflation vs Repo Rate
 
-File:
-
-```text
-inflation_vs_repo_rate.png
-```
+![Inflation vs Repo Rate](charts/inflation_vs_repo_rate.png)
 
 Examines monetary policy effectiveness.
 
@@ -270,11 +261,7 @@ Examines monetary policy effectiveness.
 
 ## 5. Money Supply Growth
 
-File:
-
-```text
-money_supply_growth.png
-```
+![Money Supply Growth](charts/money_supply_growth.png)
 
 Tracks expansion of money supply.
 
@@ -282,11 +269,7 @@ Tracks expansion of money supply.
 
 ## 6. Feature Importance
 
-File:
-
-```text
-feature_importance.png
-```
+![Feature Importance](charts/feature_importance.png)
 
 Displays important variables influencing inflation predictions.
 
@@ -294,11 +277,7 @@ Displays important variables influencing inflation predictions.
 
 ## 7. Machine Learning Prediction
 
-File:
-
-```text
-ml_prediction.png
-```
+![Machine Learning Prediction](charts/ml_prediction.png)
 
 Compares actual and predicted inflation values.
 
