@@ -4,7 +4,7 @@
 
 Government budgets and taxation policies play a crucial role in economic development, public welfare, infrastructure creation, and fiscal stability.
 
-This project analyzes government revenue, expenditure, direct taxes, indirect taxes, fiscal balance, and GDP trends using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and an Interactive Streamlit Dashboard.
+This project analyzes government revenue, expenditure, direct taxes, indirect taxes, fiscal balance, and GDP trends using Data Analytics, Statistics, SQL, Machine Learning, Data Visualization, and an interactive dashboard.
 
 The objective is to transform public finance concepts into practical analytics applications using Python and modern data analysis techniques.
 
@@ -95,7 +95,8 @@ The dataset used in this project is an educational dataset created for learning 
 │   ├── tax_revenue_growth.png
 │   ├── feature_importance.png
 │   ├── ml_prediction.png
-│   └── dashboard_preview.png
+│   ├── dashboard_preview.png
+│   └── budget-taxation_terminal_output.png
 │
 ├── sql/
 │   └── budget_taxation_queries.sql
@@ -114,15 +115,15 @@ The dataset used in this project is an educational dataset created for learning 
 
 The dataset contains yearly public finance indicators.
 
-| Column | Description |
-|----------|-------------|
-| Year | Observation Year |
-| GovernmentRevenue | Total Government Revenue |
-| GovernmentExpenditure | Total Government Expenditure |
-| DirectTax | Direct Tax Collection |
-| IndirectTax | Indirect Tax Collection |
-| FiscalBalance | Budget Surplus / Deficit |
-| GDP | Gross Domestic Product |
+| Column                | Description                   |
+|-----------------------|------------------------------|
+| Year                  | Observation Year              |
+| GovernmentRevenue     | Total Government Revenue      |
+| GovernmentExpenditure | Total Government Expenditure  |
+| DirectTax             | Direct Tax Collection         |
+| IndirectTax           | Indirect Tax Collection       |
+| FiscalBalance         | Budget Surplus / Deficit      |
+| GDP                   | Gross Domestic Product        |
 
 ---
 
@@ -148,12 +149,10 @@ Taxes are compulsory payments imposed by governments to finance public expenditu
 ### Direct Taxes
 
 Examples:
-
 - Income Tax
 - Corporate Tax
 
 Characteristics:
-
 - Paid directly by taxpayers
 - Progressive in nature
 
@@ -162,13 +161,11 @@ Characteristics:
 ### Indirect Taxes
 
 Examples:
-
 - GST
 - Excise Duty
 - Customs Duty
 
 Characteristics:
-
 - Collected through goods and services
 - Shared across consumers
 
@@ -218,13 +215,15 @@ The project automatically generates the following charts.
 
 ---
 
+## Terminal Output
+
+![Terminal Output](charts/budget-taxation_terminal_output.png)
+
+---
+
 ## 1. Government Revenue Trend
 
-File:
-
-```text
-government_revenue.png
-```
+![Government Revenue](charts/government_revenue.png)
 
 Visualizes revenue growth over time.
 
@@ -232,11 +231,7 @@ Visualizes revenue growth over time.
 
 ## 2. Government Expenditure Trend
 
-File:
-
-```text
-government_expenditure.png
-```
+![Government Expenditure](charts/government_expenditure.png)
 
 Analyzes public spending patterns.
 
@@ -244,11 +239,7 @@ Analyzes public spending patterns.
 
 ## 3. Direct vs Indirect Tax
 
-File:
-
-```text
-direct_vs_indirect_tax.png
-```
+![Direct vs Indirect Tax](charts/direct_vs_indirect_tax.png)
 
 Compares tax collection sources.
 
@@ -256,11 +247,7 @@ Compares tax collection sources.
 
 ## 4. Fiscal Balance Trend
 
-File:
-
-```text
-fiscal_balance_trend.png
-```
+![Fiscal Balance Trend](charts/fiscal_balance_trend.png)
 
 Shows budget surplus or deficit movement.
 
@@ -268,11 +255,7 @@ Shows budget surplus or deficit movement.
 
 ## 5. Tax Revenue Growth
 
-File:
-
-```text
-tax_revenue_growth.png
-```
+![Tax Revenue Growth](charts/tax_revenue_growth.png)
 
 Tracks total tax collection growth.
 
@@ -280,11 +263,7 @@ Tracks total tax collection growth.
 
 ## 6. Feature Importance
 
-File:
-
-```text
-feature_importance.png
-```
+![Feature Importance](charts/feature_importance.png)
 
 Displays influential variables used by the machine learning model.
 
@@ -292,11 +271,7 @@ Displays influential variables used by the machine learning model.
 
 ## 7. Machine Learning Prediction
 
-File:
-
-```text
-ml_prediction.png
-```
+![Machine Learning Prediction](charts/ml_prediction.png)
 
 Compares actual and predicted revenue values.
 
