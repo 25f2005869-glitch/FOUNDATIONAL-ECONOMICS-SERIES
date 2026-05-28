@@ -312,6 +312,12 @@ Compares actual demand values with predicted values.
 
 ---
 
+### Terminal Output
+
+![Demand & Supply Terminal Output](charts/demand-supply_terminal_output.png)
+
+---
+
 # 🌐 Interactive Dashboard
 
 The Streamlit Dashboard provides:
